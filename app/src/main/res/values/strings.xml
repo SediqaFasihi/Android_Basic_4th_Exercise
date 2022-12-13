@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">frgNav1</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Ciao Mondo </string>
+    <string name="home_string">Home</string>
+    <string name="Info_string">Info</string>
+    <string name="Help_string">help center</string>
+
+
+</resources>

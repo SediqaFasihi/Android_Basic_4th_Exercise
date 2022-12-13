@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/first_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text= "The new Strat is first line"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/default_padding"
+        android:paddingStart="@dimen/default_padding"
+        android:paddingEnd="@dimen/no_padding"
+        android:textSize="@dimen/app_big_text"
+        />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/secod_text"
+            android:layout_marginTop="@dimen/small_margin"
+            android:background="@color/black"
+            />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/secod_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text= "It is just a description!"
+        android:layout_below="@id/first_text"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/default_padding"
+        android:paddingStart="@dimen/default_padding"
+        android:paddingEnd="@dimen/no_padding"
+        android:textSize="@dimen/app_big_text"
+        />
+
+
+</RelativeLayout>
